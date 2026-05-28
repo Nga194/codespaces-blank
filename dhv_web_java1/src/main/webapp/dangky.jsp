@@ -20,11 +20,11 @@
 
 <body>
     <div class="container">
-    <form id="register_form" onsubmit="kiemtra();">
+    <form id="registration-form" >
             <h1>Register</h1>
             <div class="form-group">
                 <label for="Username" >Username</label>
-                <input type="text" placeholder="Enter Username" />
+                <input type="text" id="username" placeholder="Enter Username" />
                 <small></small>
             </div>
             <div class="form-group">
@@ -41,13 +41,13 @@
 
             <div class="form-group">
                 <label for="password" >Confirm Password</label>
-                <input type="ConfirmPassword" id="ConfirmPassword" placeholder="Confirm Password" />
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" />
                 <small></small>
             </div>
 
             <button type="submit">Register</button>
         </form>
         </div>
-        <script src="index.js"></script>
+        <script src="dangky.js"></script>
 </body>
 </html>
