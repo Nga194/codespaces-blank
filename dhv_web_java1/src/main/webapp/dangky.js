@@ -57,11 +57,11 @@ function showSuccess(input){
 }
 function checkLength(input,min,max){
     if(input.value.length<min){
-        showError(input,`${formatFieldName(input)} must be at least ${min} characters`);
+        showError(input,`${formatFieldName(input)} phải có ít nhất ${min} ký tự`);
         return false;
     }
     else if(input.value.length>max){
-        showError(input,`${formatFieldName(input)} must be less than ${max} characters`);
+        showError(input,`${formatFieldName(input)} phải ít hơn ${max} ký tự`);
         return false;
     }
     else{
@@ -85,7 +85,7 @@ function checkEmail(input){
 // xem 2 pw có giống nhau không
 function checkPasswordMatch(input1,input2){
     if(input1.value!==input2.value){
-        showError(input2,"Password khong khop voi nhau");
+        showError(input2,"Password không khớp");
         return false;
     }
     else{

@@ -40,7 +40,7 @@
             </div>
 
             <div class="form-group">
-                <label for="password" >Confirm Password</label>
+                <label for="Confirm Password" >Confirm Password</label>
                 <input type="password" id="confirmPassword" placeholder="Confirm Password" />
                 <small></small>
             </div>
