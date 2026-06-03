@@ -32,7 +32,8 @@
     }
     .form-group{
         margin-bottom:20px;
-        position: relative;
+        display: flex;
+        flex-direction: column;
     }
     label{
         display:block;
@@ -40,22 +41,8 @@
         color:#000066;
         font-weight: bold;
     }
-    input{
-        border:1px solid #009900;
-        border-radius:4px;
-        display:block;
-        width:100%;
-        padding:10px;
-        font-size:14px;
-        transition:border-color 0.3s;
-    }
-    small{
-        visibility:hidden;
-        position: absolute;
-        bottom:-18px;
-        left:0;
-        font-size: 12px;
-    }
+    
+   
     button{
         cursor:pointer;
         background:#6C7B8B;
@@ -82,3 +69,44 @@
         visibility: visible;
         color:rgb(218, 18, 18);
     }
+  .input-wrap {
+  position: relative;
+}
+
+.input-wrap input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.ico {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+  display: flex;
+  align-items: center;
+}
+
+.ico:hover {
+  color: #333;
+}
+input{
+    border:1px solid #009900;
+    border-radius:4px;
+    display:block;
+    width:100%;
+    padding:10px;
+    padding-right: 40px; /* thêm vào đây */
+    font-size:14px;
+    transition:border-color 0.3s;
+}
+
+small{
+    visibility: hidden;
+    font-size: 12px;
+    color: rgb(218, 18, 18);
+    min-height: 16px;
+    margin-top: 3px;
+}
