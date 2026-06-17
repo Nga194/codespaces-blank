@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:08:12 +0000] "GET / HTTP/1.1" 200 52 http-bio-8080-exec-1 81
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:08:12 +0000] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:08:25 +0000] "GET /login.html HTTP/1.1" 200 447 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:08:29 +0000] "GET /login.html?user=de&pass=%26%237867%3B HTTP/1.1" 200 447 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:08:34 +0000] "GET /login.html?user=nga&pass=123 HTTP/1.1" 200 447 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:11:18 +0000] "GET /login.html?user=nga&pass=123 HTTP/1.1" 304 - http-bio-8080-exec-1 33
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:11:23 +0000] "GET /login.html?user=nga&pass=123 HTTP/1.1" 200 447 http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:11:27 +0000] "GET /login.html?user=f&pass=fd HTTP/1.1" 200 447 http-bio-8080-exec-5 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:11:34 +0000] "GET / HTTP/1.1" 200 52 http-bio-8080-exec-7 22
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:11:51 +0000] "GET /login.html?user=&pass= HTTP/1.1" 200 447 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:13:59 +0000] "GET / HTTP/1.1" 200 52 http-bio-8080-exec-1 76
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:15:44 +0000] "GET / HTTP/1.1" 200 52 http-bio-8080-exec-1 73
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:35:42 +0000] "GET / HTTP/1.1" 200 52 http-bio-8080-exec-1 54
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:35:49 +0000] "GET /login.html HTTP/1.1" 200 452 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [17/Jun/2026:08:35:56 +0000] "GET /login?user=nga&pass=123 HTTP/1.1" 200 132 http-bio-8080-exec-5 4
