@@ -1,0 +1,5 @@
+ALTER TABLE taikhoan
+  ADD COLUMN so_lan_that_bai INT NOT NULL DEFAULT 0,
+  ADD COLUMN thoi_gian_khoa DATETIME NULL,
+  ADD COLUMN da_tung_bi_khoa TINYINT(1) NOT NULL DEFAULT 0,
+  ADD COLUMN trang_thai VARCHAR(20) NOT NULL DEFAULT 'active';
